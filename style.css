@@ -1,0 +1,313 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+.header_dins{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;    
+}
+.navigation a:last-child{
+    padding-right: 0px;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.navigation> a li:hover{
+    color: red;
+}
+body {
+    background-color:black;
+    font-family: sans-serif;
+}
+.imatgefons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1366px;
+    height: 765px;
+}
+
+.fotoNetflix{
+    position: absolute;
+    top: 200px;
+    left : 200px;
+    z-index: 1;
+    display: block;
+}
+
+.foto{
+    height: 45%;
+    width: 45%;
+}
+
+.paràgraf{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    font-family: sans-serif; 
+    font-size: 16px; 
+    font-weight: 400; 
+    color: #ffffff; 
+    background-color: #101010;
+    margin: 0 0 25px;
+    margin-right: 20px;
+    display:inline-block;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    text-align: justify;
+    opacity: 0.7;
+    border:solid 1px black;
+}
+.contingut{
+    height: 800px;
+    width: 100%;
+
+}
+.contingut iframe{
+    display: block;
+    margin: auto;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.fotoGran{
+    background-color: black;
+}
+.contingut h3{
+    color: white;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+.bloc1{
+    height: 150px;
+    position: relative;
+    background-color: #101010;
+}
+.ralla{
+    height: 1px;
+    width: 80%;
+    background-color: white;
+    margin: 0px auto;
+}
+.contacte{
+    padding: 12px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.social{
+    background-color: #101010;
+    width: 380px;
+    margin: 0px auto;
+}
+.social a img{    
+    height: 50px;
+    width: 50px;    
+}
+.bloc2{
+    float: left;
+    margin: 20px 400px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+.bloc2 ul li a{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    
+}
+.bloc3{
+    float: right;  
+    margin: 20px 400px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    bottom: 260px;
+    
+}
+.bloc3 ul li a{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    
+}
+/*capitols*/
+.temp1{
+    height: 2000px;
+    width: 100%;
+    background-color: black;  
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 25px;
+}
+.titol{
+    font-size: 16px;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+}
+h2{
+    color: white;
+    padding: 12px;
+    font-size: 20px;    
+}
+.foto1{
+    height: auto;
+    width: 150px;
+    float: right;
+    padding:0px 20px ;
+    position: absolute;
+    top: 92px;
+    right: 4%;
+}
+
+.box{
+    background-color: rgb(17, 3, 3);
+    width: 448px;
+    height: 350px;
+}
+.temp1req{
+    background-color: black;
+    height: 180px;
+    padding: 20px 5%;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 448px 448px 448px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 1% 5%;
+}
+.boxes p{
+    padding: 0px 3%;
+}
+/*Historia*/
+.personatges{
+    background-color: black;
+    padding: 2% 5%;
+    width: 80% auto;
+}
+.personatges img{
+    width: 520px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.personatges p{
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+.person{
+    width: 100%;
+    height: 500px;
+}
+
+/*imatges */
+.container{
+    padding:3% 5%;
+}
+.foto-i-text{
+    width: 100%;
+    height: 820px; 
+
+}
+.foto-i-text p{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.foto-i-text h3{
+    font-size: 20px;
+}
+.foto-i-text img{
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.fotos img{
+    width: auto;
+    height: 230px;
+    margin: auto;
+}
+.fotos{
+    width: 1250px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fotos h3{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
