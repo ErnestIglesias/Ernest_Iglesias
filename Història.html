@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <title>DARK</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="anim.js">
+    <link rel="stylesheet" href="popup.css">
 
 </head>
 <body>
     <header class="header">
-      <a href=""></a>
-      <div class= "header_dins">
-        <div class="logo_container">
-          <h1>D A <span>R K</span></h1>
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+              <a href="#" id="btn-tancar-popup" class="btn-tancar-popup"><i class="fas fa-times"></i></a>
+              <h3>SUSCRIU-TE</h3>
+              <h4>I rep totes les nostres ofertes</h4>
+              <form action="">
+                <div class="contenedor-inputs">
+                  <input type="text" placeholder="Nombre">
+                  <input type="email" placeholder="Correo">
+                </div>
+                <input type="submit" class="btn-submit" value="Subscribir-se">
+              </form>
+            </div>
+          </div>
+        <div class= "header_dins">
+          <div class="logo_container">
+            <h1>D A <span>R K</span></h1>
+            
+          </div>
+          
+          <ul class="navigation">
+              <a href="index.html" > <li >Inici</li> </a>
+              <a href="explicació.html" > <li>Capítols</li> </a>
+              <a href="Història.html" > <li>Història</li></a> 
+              <a href="Imatges.html" > <li>Imatges</li> </a> 
+             <button id="btn-obrir-popup" class="btn-obrir-popup">Subscribir-se</button>
+            
+            </ul>
         </div>
-        <ul class="navigation">
-            <a href="index.html" > <li>Inici</li> </a>
-            <a href="explicació.html" > <li>Capítols</li> </a>
-            <a href="Història.html" > <li >Història</li></a> 
-            <a href="Imatges.html" > <li>Imatges</li> </a> 
-          </ul>
-      </div>       
-    </header>
+               
+      </header>
     <div class="personatges">
       <h3 class="sinc">SINCRONITZACIÓ DE FAMÍLIES AMB EL PASSAT, PRESENT I FUTUR (1953-1986-2019)</h3>
       <div class="person">
@@ -171,10 +191,6 @@
       </div>
     </div>
 
-
-
-
-
     <div class="bloc1">
       <div class=ralla></div>
       <h1 class="contacte">CONTACTAN'S</h1>
@@ -207,5 +223,6 @@
                   <li><a href="#"> Informació </a></li>
                 </ul>
               </nav>
+    <script type="text/javascript" src="anim.js"></script>
   </body>
 </html>
